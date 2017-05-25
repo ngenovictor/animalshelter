@@ -64,3 +64,25 @@ input{
   border: none;
   cursor: pointer;
 }
+.adopt-content{
+  margin-top: 10px;
+  font-family: 'Boogaloo', cursive;
+
+}
+.adopt-content .pets{
+  border: 1px solid #ccc;
+  margin-right:20px;
+  margin-bottom: 20px;
+  float: left;
+  width: 30%;
+}
+.adopt-content .pets img{
+  width: 100%;
+}
+.adopt-content .pets .desc{
+  text-align: center;
+}
+.adopt-content .pets:hover{
+  background-color: rgb(110,110,110);
+  text-decoration: none;
+}
